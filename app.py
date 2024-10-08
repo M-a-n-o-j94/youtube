@@ -96,9 +96,7 @@ youtube_link = st.text_input("Enter video URL")
 # Import PIL to handle local image files
 from PIL import Image
 # Open and display the image
-if youtube_link:
-    image = Image.open(r"C:\Users\Manoj bhyravajosula\Downloads\maxresdefault.jpg")
-    st.image(image, caption="Local Image", use_column_width=True)
+
 
 
 
@@ -115,8 +113,7 @@ if st.button("SUBMIT"):
 
 
 
-image = Image.open(r"C:\Users\Manoj bhyravajosula\Downloads\future-artificial-intelligence-robot-network-system-background_432372-88.avif")
-st.image(image, caption="Local Image", use_column_width=True)
+
 
     
 
