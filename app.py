@@ -93,9 +93,9 @@ st.title("YOUTUBE VIDEO TO TEXT CONVERTER")
 st.subheader("UPLOAD VIDEO URL")
 
 youtube_link = st.text_input("Enter video URL")
-# Import PIL to handle local image files
-from PIL import Image
-# Open and display the image
+
+
+
 
 
 
